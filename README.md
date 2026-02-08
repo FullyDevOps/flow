@@ -9,25 +9,25 @@ Below are **multiple paste-ready Mermaid charts** (copy/paste into `README.md` o
 
 ```mermaid
 flowchart TD
-  A[Brand Owner (You) - Indiana, USA] --> B[Define SKU Specs + Labels + Claims Policy]
-  B --> C[Select Providers: Broker, Forwarder, Lab, FSVP Consultant, 3PL/Prep]
-  C --> D[FSVP Program Created per SKU]
-  D --> E[Purchase Order + Artwork Release to India]
+  A["Brand Owner (You) - Indiana, USA"] --> B["Define SKU Specs + Labels + Claims Policy"]
+  B --> C["Select Providers: Broker, Forwarder, Lab, FSVP Consultant, 3PL/Prep"]
+  C --> D["FSVP Program Created per SKU"]
+  D --> E["Purchase Order + Artwork Release to India"]
 
   subgraph INDIA[Friend (India) - Manufacturer/Exporter]
-    I1[Business + Food License + Export IDs] --> I2[Facility + Equipment + GMP/SSOP]
-    I2 --> I3[Raw Material Sourcing (Conventional/Organic)]
-    I3 --> I4[Manufacture + Pack Retail-Ready (Pouch/Jar)]
-    I4 --> I5[Lot Coding + COA Testing + QA Release]
-    I5 --> I6[Export Docs + Handover to Forwarder]
+    I1["Business + Food License + Export IDs"] --> I2["Facility + Equipment + GMP/SSOP"]
+    I2 --> I3["Raw Material Sourcing (Conventional/Organic)"]
+    I3 --> I4["Manufacture + Pack Retail-Ready (Pouch/Jar)"]
+    I4 --> I5["Lot Coding + COA Testing + QA Release"]
+    I5 --> I6["Export Docs + Handover to Forwarder"]
   end
 
   E --> I1
-  I6 --> U1[Ocean/Air Transit]
-  U1 --> U2[US Import: Broker Entry + Prior Notice]
-  U2 --> U3[Indiana Receiving + QC Check]
-  U3 --> U4[Distribution: Store / 3PL / Amazon FBA]
-  U4 --> U5[Sales + Complaints + Recall Readiness Loop]
+  I6 --> U1["Ocean/Air Transit"]
+  U1 --> U2["US Import: Broker Entry + Prior Notice"]
+  U2 --> U3["Indiana Receiving + QC Check"]
+  U3 --> U4["Distribution: Store / 3PL / Amazon FBA"]
+  U4 --> U5["Sales + Complaints + Recall Readiness Loop"]
 ```
 
 ---
