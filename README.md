@@ -1,3 +1,15 @@
+GitHub can render Mermaid diagrams directly in Markdown when you wrap the diagram in a fenced code block labeled `mermaid`. ([GitHub Docs][1])
+If you publish via **GitHub Pages (Jekyll)**, Mermaid may not render by default and you may see the raw code unless you add a Mermaid renderer step. ([GitHub Discussion][2])
+
+Below are **paste-ready Mermaid charts** you can copy into `README.md` or any `.md` file in your repo.
+
+> **Mermaid reliability rules (prevents parse errors):**
+>
+> * One arrow/statement per line
+> * Keep node labels on a single line
+> * Prefer quoted labels: `A["text"]`
+> * Avoid special characters inside labels (use `m3` instead of `m³`, avoid `+` where possible)
+
 ---
 
 ## Chart 1 — End-to-end overview (Friend vs You) 🧭
