@@ -14,7 +14,7 @@ flowchart TD
   C --> D["FSVP Program Created per SKU"]
   D --> E["Purchase Order + Artwork Release to India"]
 
-  subgraph INDIA[Friend (India) - Manufacturer/Exporter]
+  subgraph INDIA["Friend (India) - Manufacturer/Exporter"]
     I1["Business + Food License + Export IDs"] --> I2["Facility + Equipment + GMP/SSOP"]
     I2 --> I3["Raw Material Sourcing (Conventional/Organic)"]
     I3 --> I4["Manufacture + Pack Retail-Ready (Pouch/Jar)"]
